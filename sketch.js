@@ -55,9 +55,9 @@ function draw() {
   if (lastFed >= 12) {
     text("Last Fed : " + (lastFed % 12) + " PM", 400, 20);
   } else if (lastFed == 0) {
-    text("Last Fed : 12 AM", 450, 20);
+    text("Last Fed : 12 AM", 400, 20);
   } else {
-    text("Last Fed : " + lastFed + " AM", 450, 20);
+    text("Last Fed : " + lastFed + " AM", 400, 20);
   }
   pop();
 

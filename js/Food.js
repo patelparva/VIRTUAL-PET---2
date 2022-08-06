@@ -17,7 +17,6 @@ class Food {
     });
   }
 
-
   display() {
     this.getFoodStock();
 
